@@ -34,8 +34,6 @@ class Checkout:
             
         elif item == 'vga': # if number of mbp is same as vga then decrement by 1
             self.count[3] += 1
-            if self.count[1] == self.count[3]:
-                self.count[3]-=1
 
 
     # Function to compute the total amount needed for all the scanned items
